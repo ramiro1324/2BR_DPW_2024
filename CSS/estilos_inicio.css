@@ -1,3 +1,15 @@
+.vt323-regular {
+    font-family: "VT323", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+.share-tech-mono-regular {
+    font-family: "Share Tech Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+
 *{
     margin: 0px;
     padding: 0px;
@@ -14,6 +26,8 @@ body{
     flex-direction: column;
     height: 100vh;
     width: 100vw;
+    font-family: "Share Tech Mono";
+    font-size: 1.5rem;
 }
 nav{
     height: 15vh;
@@ -25,6 +39,10 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 1.5rem;
+}
+i{
+    margin-right: 1rem;
 }
 #navPrincipal{
     width: 100vw;
@@ -32,6 +50,7 @@ nav{
     left: 0px;
     display: flex;
     flex-direction:row;
+    z-index: 1;
 }
 section{
     width: 100vw;
@@ -43,9 +62,32 @@ section{
 }
 
 #logo{
-    width: 33vw;
-    height: 15vh;
+    width: 13vw;
+    height: auto;
 }
 .iconos{
     width: 2rem;
+}
+.nav1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c93e25;
+    overflow-y: hidden;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+
+}
+
+li{
+    font-size: 0.8rem;
+    margin-right: 1rem;
+}
+.nav3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
